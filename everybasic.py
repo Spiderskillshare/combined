@@ -13,7 +13,7 @@ import listofprimes
 
 
 def main():
-    what = input("what do you wanna do \na, calculater \nb, power calculation \nc, brutforce \nd, sequence "
+    what = input("what do you wanna do \na, calculater \nb, power calculation \nc, wordlist \nd, sequence "
                  "calculation \ne, list of primes or twin primes \n\nyou@python$ ")
     if what == 'a':
         cal()
