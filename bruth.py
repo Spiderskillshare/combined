@@ -1,5 +1,5 @@
 def main():
-    leng = int(input("enter the length of the word you wanna brutforce it with 4-9: "))
+    leng = int(input("enter the length of the words you want the probablity to be with 4-9: "))
 
     if leng == 4:
         print("writing the worldlist...")
@@ -115,7 +115,7 @@ alpha = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "
          "w", "x", "y", "z"]
 
 first = open("wordlist.txt", "w")
-first.write("written by cyber spider \n")
+first.write("written by The spider \n")
 first.close()
 bets = open("wordlist.txt", "a")
 
